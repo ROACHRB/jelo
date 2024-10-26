@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer h2 {
+    margin-bottom: 5px; /* Reduce space below the heading */
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+#contact {
+    text-align: center;
+}
+
+.contact-circle {
+    display: inline-block;
+    border: 2px solid #ccc; /* Circle border color */
+    border-radius: 50%; /* Makes the div circular */
+    padding: 5px; /* Space inside the circle */
+    margin: 5px; /* Space between circles */
+    width: 40px; /* Width of the circle */
+    height: 40px; /* Height of the circle */
+    vertical-align: middle; /* Aligns circles in the middle */
+    overflow: hidden; /* Ensures the image fits within the circle */
+    position: relative; /* Allows absolute positioning of the image */
+}
+
+.circle-logo {
+    position: absolute; /* Position the logo absolutely within the circle */
+    top: 50%; /* Center the logo vertically */
+    left: 50%; /* Center the logo horizontally */
+    width: auto; /* Set width to auto to maintain aspect ratio */
+    height: 100%; /* Make height 100% of the circle */
+    max-width: none; /* Prevent the logo from being constrained by width */
+    transform: translate(-50%, -50%); /* Center the logo */
+}
